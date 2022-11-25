@@ -1,0 +1,6 @@
+[submodule "src/rexsubmodule1"]
+	path = src/rexsubmodule1
+	url = git@rb.github.com:RexBytes/rexsubmodule1.git
+[submodule "src/pkgexamplesubmodules/rexsubmodule2"]
+	path = src/pkgexamplesubmodules/rexsubmodule2
+	url = git@rb.github.com:RexBytes/rexsubmodule2.git
