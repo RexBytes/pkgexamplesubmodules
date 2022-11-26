@@ -18,6 +18,14 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+#The default location where setuptools will look for your 
+#package and other directories is "src".
+#You don't need the following table if you use "src"
+#I leave it here if you want to put your packages in a
+#dir other thant "src", or list multiple directories.
+[tool.setuptools.packages.find]
+where = ["src"]
+
 
 [project.urls]
 "Homepage" = "https://github.com/RexBytes/pkgexamplesubmodules"
